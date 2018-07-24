@@ -17,3 +17,11 @@
 
 
 //ANOTHER METHOD
+const fs = require('fs');
+
+var originalNote = {
+  title: 'Some title',
+  body: 'Some body'
+};
+//originalNoteString
+fs.writeFileSync('notes.json', originalNoteString);
